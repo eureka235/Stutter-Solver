@@ -28,7 +28,7 @@ We use [VITS](https://github.com/jaywalnut310/vits) as our TTS model.
 
 0. Build Monotonoic Alignment Search
 ```sh
-cd dysfluency_simulation/monotonic_align
+cd monotonic_align
 python setup.py build_ext --inplace
 ```
 3. Generate simulated speech
@@ -41,7 +41,7 @@ python generate_word.py
 ```
 
 ### Chinese Mandarin
-Switch to [vits-chinese](https://github.com/eureka235/Stutter-Solver/tree/vits-chinese) branch.
+* Switch to [vits-chinese](https://github.com/eureka235/Stutter-Solver/tree/vits-chinese) branch.
 
 We use [vits_chinese](https://github.com/PlayVoice/vits_chinese/tree/bert_vits_aishell3?tab=readme-ov-file) as our TTS model for Chinese simulation. Download checkpoints according to its `README` and place it in the specified path.
 
