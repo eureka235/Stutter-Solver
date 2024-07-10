@@ -9,7 +9,7 @@ We open sourced our three simulated datasets, **VCTK-Art**, **VCTK-Pro** and **A
 
 ### Audio samples
 
-check [Audio samples]"https://drive.google.com/drive/folders/1LhYGUhAzkCT7P6JEYTqSV10Yq9ryjb__?usp=sharing"
+check "Audio samples"[https://drive.google.com/drive/folders/1LhYGUhAzkCT7P6JEYTqSV10Yq9ryjb__?usp=sharing]
 
 ## Pre-requisites
 
