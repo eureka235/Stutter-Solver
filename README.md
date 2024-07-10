@@ -43,7 +43,7 @@ python generate_word.py
 ```
 
 ### Chinese Mandarin
-* Switch to [vits-chinese](https://github.com/eureka235/Stutter-Solver/tree/vits-chinese) branch.
+* Switch to [vits-chinese branch](https://github.com/eureka235/Stutter-Solver/tree/vits-chinese)
 
 We use [vits_chinese](https://github.com/PlayVoice/vits_chinese/tree/bert_vits_aishell3?tab=readme-ov-file) as our TTS model for Chinese simulation. Download checkpoints according to its `README` and place it in the specified path.
 
