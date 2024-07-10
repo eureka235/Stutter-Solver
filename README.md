@@ -50,7 +50,7 @@ We use [vits_chinese](https://github.com/PlayVoice/vits_chinese/tree/bert_vits_a
 cd monotonic_align
 python setup.py build_ext --inplace
 ```
-3. Generate simulated speech
+1. Generate simulated speech
 ```sh
 python generate_dysfluency.py
 ```
