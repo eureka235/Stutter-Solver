@@ -9,12 +9,7 @@ We open sourced our three simulated datasets, **VCTK-Art**, **VCTK-Pro** and **A
 
 ### Audio samples
 
-<details>
-  <summary><h5>see example</h5></summary>
-  
-[rep.webm](https://github.com/eureka235/Stutter-Solver/raw/main/audio/vctk-pro/1-rep.webm)
-
-</details>
+check [Audio samples]"https://drive.google.com/drive/folders/1LhYGUhAzkCT7P6JEYTqSV10Yq9ryjb__?usp=sharing"
 
 ## Pre-requisites
 
