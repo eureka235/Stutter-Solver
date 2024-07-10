@@ -9,6 +9,10 @@ We open sourced our three simulated datasets, **VCTK-Art**, **VCTK-Pro** and **A
 
 ### Audio samples
 
+<audio controls>
+  <source src="audio/vctk-pro/1-rep.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
 
 ## Pre-requisites
