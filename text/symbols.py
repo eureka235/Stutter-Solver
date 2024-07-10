@@ -1,31 +1,71 @@
-import random
+_pause = ["sil", "eos", "sp", "#0", "#1", "#2", "#3"]
 
-""" from https://github.com/keithito/tacotron """
+_initials = [
+    "^",
+    "b",
+    "c",
+    "ch",
+    "d",
+    "f",
+    "g",
+    "h",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "p",
+    "q",
+    "r",
+    "s",
+    "sh",
+    "t",
+    "x",
+    "z",
+    "zh",
+]
 
-'''
-Defines the set of symbols used in text input to the model.
-'''
-_pad        = '_'
-_punctuation = ';:,.!?¡¿—…"«»“” '
-_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-_letters_ipa = "ɑɐɒæɓʙβɔɕçɗɖðʤəɘɚɛɜɝɞɟʄɡɠɢʛɦɧħɥʜɨɪʝɭɬɫɮʟɱɯɰŋɳɲɴøɵɸθœɶʘɹɺɾɻʀʁɽʂʃʈʧʉʊʋⱱʌɣɤʍχʎʏʑʐʒʔʡʕʢǀǁǂǃˈˌːˑʼʴʰʱʲʷˠˤ˞↓↑→↗↘'̩'ᵻ"
-# _vowels_ipa = "AEIOUaeiouɑɐɒæɔəɘɚɛɜɝɞɨɪɯɰɵøœɶʉʊʌɤʏ"
-_vowels_ipa = "AEIOUaeiou"
+_tones = ["1", "2", "3", "4", "5"]
 
-# Export all symbols:
-symbols = [_pad] + list(_punctuation) + list(_letters) + list(_letters_ipa)
+_finals = [
+    "a",
+    "ai",
+    "an",
+    "ang",
+    "ao",
+    "e",
+    "ei",
+    "en",
+    "eng",
+    "er",
+    "i",
+    "ia",
+    "ian",
+    "iang",
+    "iao",
+    "ie",
+    "ii",
+    "iii",
+    "in",
+    "ing",
+    "iong",
+    "iou",
+    "o",
+    "ong",
+    "ou",
+    "u",
+    "ua",
+    "uai",
+    "uan",
+    "uang",
+    "uei",
+    "uen",
+    "ueng",
+    "uo",
+    "v",
+    "van",
+    "ve",
+    "vn",
+]
 
-# Special symbol ids
-SPACE_ID = symbols.index(" ")
-
-
-def get_vowel(s):
-    vowels_in_input = [(i, char) for i, char in enumerate(s) if char in _vowels_ipa]
-
-    if vowels_in_input:
-        select = random.choice(vowels_in_input)
-        index_in_w = 2 * select[0] + 1
-        # print(select[1])
-        return select[0], select[1], index_in_w
-    else:
-        return None, None, None
+symbols = _pause + _initials + [i + j for i in _finals for j in _tones]
