@@ -10,7 +10,7 @@ We open sourced our three simulated datasets, **VCTK-Art**, **VCTK-Pro** and **A
 ### Audio samples
 
 <audio controls>
-  <source src="audio/vctk-pro/1-rep.webm" type="audio/webm">
+  <source src="https://github.com/eureka235/Stutter-Solver/raw/main/audio/vctk-pro/1-rep.webm" type="audio/webm">
   Your browser does not support the audio element.
 </audio>
 
