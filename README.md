@@ -41,3 +41,4 @@ python generate_word.py
 ```
 
 ### Chinese Mandarin
+Switch to [vits-chinese](https://github.com/eureka235/Stutter-Solver/tree/vits-chinese) branch
