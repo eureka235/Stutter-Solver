@@ -11,7 +11,6 @@ We open sourced our three simulated datasets, **VCTK-Art**, **VCTK-Pro** and **A
 
 <audio controls>
   <source src="https://github.com/eureka235/Stutter-Solver/raw/main/audio/vctk-pro/1-rep.wav" type="audio/wav">
-  Your browser does not support the audio element.
 </audio>
 
 
