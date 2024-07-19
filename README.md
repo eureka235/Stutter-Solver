@@ -37,7 +37,7 @@ cd stutter-solver/monotonic_align
 python setup.py build_ext --inplace
 ```
 
-6. Run `stutter-solver/etc/inference.ipynb` to perform inference step by step.
+5. Run `stutter-solver/etc/inference.ipynb` to perform inference step by step.
 
 
 ## TTS-based Dysfluency Simulation
