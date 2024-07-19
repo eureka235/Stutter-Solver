@@ -22,7 +22,7 @@ If you have Miniconda/Anaconda installed, you can directly use the command: `con
 ## Stutter-Solver Inference
 We opensourced our inference code and checkpoints, here are the steps to perform inference:
 
-0. Clone the folder `stutter-solver`
+0. Clone this repository
 
 1. Download [VITS pretrained model](https://drive.google.com/drive/folders/1ksarh-cJf3F5eKJjLVWY0X1j1qsQqiS2), here we use `pretrained_ljs.pth`.
 
