@@ -18,6 +18,28 @@ Please refer [environment.yml](environment.yml)
 
 If you have Miniconda/Anaconda installed, you can directly use the command: `conda env create -f environment.yml`
 
+
+## Stutter-Solver Inference
+We opensourced our inference code and checkpoints, here are the steps to perform inference:
+
+0. Clone the folder `stutter-solver`
+
+1. Download [VITS pretrained model](https://drive.google.com/drive/folders/1ksarh-cJf3F5eKJjLVWY0X1j1qsQqiS2), here we use `pretrained_ljs.pth`.
+
+2. Download [Stutter-Solver-checkpoints](), create a folder under `stutter-solver`, named `saved_models`, and put all downloaded models into it.
+
+3. We also provide testing datasets for quick inference, you can download it [here]().
+
+4. Build Monotonic Alignment Search
+
+```sh
+cd stutter-solver/monotonic_align
+python setup.py build_ext --inplace
+```
+
+6. Run `stutter-solver/etc/inference.ipynb` to perform inference step by step.
+
+
 ## TTS-based Dysfluency Simulation
 
 ### English
