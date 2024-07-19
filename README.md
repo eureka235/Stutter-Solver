@@ -26,9 +26,9 @@ We opensourced our inference code and checkpoints, here are the steps to perform
 
 1. Download [VITS pretrained model](https://drive.google.com/drive/folders/1ksarh-cJf3F5eKJjLVWY0X1j1qsQqiS2), here we use `pretrained_ljs.pth`.
 
-2. Download [Stutter-Solver-checkpoints](), create a folder under `stutter-solver`, named `saved_models`, and put all downloaded models into it.
+2. Download [Stutter-Solver-checkpoints](https://drive.google.com/drive/folders/1EQzAZhmMDdMQy_S0TS73ESZXW4ucb5Eh?usp=sharing), create a folder under `stutter-solver`, named `saved_models`, and put all downloaded models into it.
 
-3. We also provide testing datasets for quick inference, you can download it [here]().
+3. We also provide testing datasets for quick inference, you can download it [here](https://drive.google.com/drive/folders/1OhbylWohKrAVN0JZGKfl0LAKdzXVzlai?usp=sharing).
 
 4. Build Monotonic Alignment Search
 
